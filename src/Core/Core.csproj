@@ -13,6 +13,10 @@
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
   <ItemGroup>
     <EmbeddedResource Include="licensing.cer" />
     <EmbeddedResource Include="licensing_dev.cer" />

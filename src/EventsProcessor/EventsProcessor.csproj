@@ -4,6 +4,10 @@
     <UserSecretsId>bitwarden-EventsProcessor</UserSecretsId>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\SharedWeb\SharedWeb.csproj" />
     <ProjectReference Include="..\Core\Core.csproj" />
